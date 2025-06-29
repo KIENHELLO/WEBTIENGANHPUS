@@ -17,6 +17,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'corsheaders'
 
     # App nội bộ
     'vocabulary',
@@ -83,7 +84,7 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-
+CORS_ALLOW_ALL_ORIGINS = True  # hoặc cấu hình cụ thể hơn nếu cần
 # Quốc tế hóa
 LANGUAGE_CODE = 'en-us'
 TIME_ZONE = 'UTC'
