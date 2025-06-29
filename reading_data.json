@@ -1,0 +1,871 @@
+[
+  {
+    "id": 1,
+    "title": "Job Opening: Marketing Specialist",
+    "passage": "We are currently seeking a highly motivated and experienced Marketing Specialist to join our dynamic team. The ideal candidate will be responsible for developing and implementing marketing strategies, managing social media campaigns, and analyzing market trends. This position requires a Bachelor's degree in Marketing or a related field and at least 3 years of experience in a similar role. Excellent communication and analytical skills are essential. Interested candidates should submit their resume and cover letter to hr@example.com by July 15th.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is the main purpose of this announcement?",
+        "options": {
+          "A": "To introduce a new product",
+          "B": "To announce a company merger",
+          "C": "To advertise a job vacancy",
+          "D": "To report market research findings"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 2,
+        "question": "What is NOT a required qualification for this position?",
+        "options": {
+          "A": "A Bachelor's degree",
+          "B": "Strong analytical skills",
+          "C": "At least 3 years of experience",
+          "D": "Proficiency in multiple languages"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 3,
+        "question": "When is the deadline for applications?",
+        "options": {
+          "A": "July 1st",
+          "B": "July 15th",
+          "C": "August 1st",
+          "D": "August 15th"
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Important Notice: Office Renovation",
+    "passage": "Please be advised that our main office building will undergo extensive renovations from August 1st to August 31st. During this period, all departments will temporarily relocate to our annex building on Elm Street. We apologize for any inconvenience this may cause. Essential services will continue to operate as usual. For urgent inquiries, please contact your respective department head. We appreciate your cooperation.",
+    "questions": [
+      {
+        "id": 4,
+        "question": "What is the main topic of this notice?",
+        "options": {
+          "A": "A change in company policy",
+          "B": "A temporary office relocation",
+          "C": "A new hiring initiative",
+          "D": "A product recall"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 5,
+        "question": "How long will the renovations last?",
+        "options": {
+          "A": "One week",
+          "B": "Two weeks",
+          "C": "Three weeks",
+          "D": "One month"
+        },
+        "answer": "D"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Email: Project Update Request",
+    "passage": "From: Sarah Johnson <s.johnson@techcorp.com>\nTo: Michael Chen <m.chen@techcorp.com>\nSubject: Quarterly Project Status Update\nDate: June 20, 2025\n\nHi Michael,\n\nI hope this email finds you well. As we approach the end of Q2, I need to compile our quarterly report for the board meeting next week. Could you please provide me with an update on the website redesign project? Specifically, I need information about the current completion percentage, any challenges you've encountered, and the expected launch date.\n\nPlease send me this information by Thursday, June 22nd, so I can include it in my presentation. If you have any questions or need clarification, feel free to call me at extension 4521.\n\nBest regards,\nSarah Johnson\nProject Manager",
+    "questions": [
+      {
+        "id": 6,
+        "question": "What is the main purpose of this email?",
+        "options": {
+          "A": "To schedule a board meeting",
+          "B": "To request project information",
+          "C": "To announce a website launch",
+          "D": "To assign a new project"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 7,
+        "question": "When does Sarah need the information?",
+        "options": {
+          "A": "By June 20th",
+          "B": "By June 21st",
+          "C": "By June 22nd",
+          "D": "By June 23rd"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 8,
+        "question": "What project is Michael working on?",
+        "options": {
+          "A": "Quarterly report preparation",
+          "B": "Board meeting organization",
+          "C": "Website redesign",
+          "D": "Extension installation"
+        },
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Advertisement: Professional Development Course",
+    "passage": "ADVANCE YOUR CAREER WITH DIGITAL MARKETING MASTERY\n\nAre you ready to take your marketing skills to the next level? Our comprehensive 8-week Digital Marketing Certification Program is designed for working professionals who want to stay competitive in today's digital landscape.\n\nWhat you'll learn:\n• Search Engine Optimization (SEO)\n• Social Media Marketing\n• Content Creation Strategies\n• Analytics and Data Interpretation\n• Email Marketing Campaigns\n\nCourse Details:\n• Duration: 8 weeks (2 evenings per week)\n• Schedule: Tuesdays and Thursdays, 6:00 PM - 8:30 PM\n• Location: Downtown Learning Center or Online\n• Investment: $1,299 (payment plans available)\n• Class size: Limited to 20 participants\n\nEarly Bird Special: Register by July 1st and save $200!\n\nContact us at 555-LEARN-01 or visit www.digitalmarketingpro.com\nNext cohort starts July 15th.",
+    "questions": [
+      {
+        "id": 9,
+        "question": "How long does the certification program last?",
+        "options": {
+          "A": "6 weeks",
+          "B": "8 weeks",
+          "C": "10 weeks",
+          "D": "12 weeks"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 10,
+        "question": "What is the regular price of the course?",
+        "options": {
+          "A": "$1,099",
+          "B": "$1,199",
+          "C": "$1,299",
+          "D": "$1,499"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 11,
+        "question": "When does the next cohort begin?",
+        "options": {
+          "A": "July 1st",
+          "B": "July 10th",
+          "C": "July 15th",
+          "D": "July 20th"
+        },
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Memo: New Company Policy",
+    "passage": "MEMORANDUM\n\nTO: All Employees\nFROM: Human Resources Department\nDATE: June 18, 2025\nSUBJECT: Updated Remote Work Policy\n\nEffective July 1, 2025, our company will implement an updated remote work policy to better support work-life balance while maintaining productivity standards.\n\nKey Changes:\n1. All eligible employees may work remotely up to 3 days per week\n2. Remote work days must be scheduled in advance with supervisor approval\n3. All employees must be present in the office on Wednesdays for team meetings\n4. Home office equipment stipend increased to $500 annually\n5. Monthly productivity reviews will be conducted for remote workers\n\nTo be eligible for remote work, employees must:\n- Have been with the company for at least 6 months\n- Maintain satisfactory performance ratings\n- Have a suitable home office setup\n\nPlease submit your remote work application to HR by June 30th. Training sessions on remote work best practices will be held during the week of June 26th.\n\nFor questions, contact HR at hr@company.com or extension 2100.",
+    "questions": [
+      {
+        "id": 12,
+        "question": "When will the new policy take effect?",
+        "options": {
+          "A": "June 18, 2025",
+          "B": "June 26, 2025",
+          "C": "June 30, 2025",
+          "D": "July 1, 2025"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 13,
+        "question": "How many days per week can employees work remotely?",
+        "options": {
+          "A": "Up to 2 days",
+          "B": "Up to 3 days",
+          "C": "Up to 4 days",
+          "D": "Up to 5 days"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 14,
+        "question": "Which day must all employees be in the office?",
+        "options": {
+          "A": "Monday",
+          "B": "Tuesday",
+          "C": "Wednesday",
+          "D": "Friday"
+        },
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Restaurant Review",
+    "passage": "★★★★☆ The Garden Bistro - A Hidden Gem in Downtown\n\nReviewed by Emily Torres, Food Critic\nPublished: June 15, 2025\n\nTucked away on a quiet side street, The Garden Bistro offers an intimate dining experience that perfectly balances elegant ambiance with approachable cuisine. Chef Maria Santos has created a menu that celebrates seasonal ingredients while maintaining consistent quality across all dishes.\n\nThe restaurant's signature dish, herb-crusted salmon with quinoa pilaf, was expertly prepared and beautifully presented. The flavors were well-balanced, though the portion size felt slightly small for the $28 price point. The roasted vegetable medley that accompanied the dish showcased the chef's commitment to using locally-sourced produce.\n\nService was attentive but not intrusive, with our server providing excellent wine recommendations that complemented our meal perfectly. The atmosphere struck the right note for both business dinners and romantic evenings.\n\nMy only complaint was the limited parking availability, which required us to park three blocks away. Despite this minor inconvenience, I would definitely return and recommend The Garden Bistro to anyone seeking quality cuisine in a cozy setting.\n\nReservations strongly recommended. Open Tuesday-Sunday, 5:30 PM - 10:00 PM.",
+    "questions": [
+      {
+        "id": 15,
+        "question": "What rating did the reviewer give the restaurant?",
+        "options": {
+          "A": "3 stars",
+          "B": "4 stars",
+          "C": "5 stars",
+          "D": "Not specified"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 16,
+        "question": "What was the main criticism mentioned in the review?",
+        "options": {
+          "A": "Poor service quality",
+          "B": "High prices",
+          "C": "Limited parking",
+          "D": "Small portions"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 17,
+        "question": "What is the restaurant's signature dish?",
+        "options": {
+          "A": "Quinoa pilaf",
+          "B": "Roasted vegetable medley",
+          "C": "Herb-crusted salmon",
+          "D": "Wine selection"
+        },
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Conference Registration Confirmation",
+    "passage": "GLOBAL TECH SUMMIT 2025\nRegistration Confirmation\n\nConfirmation Number: GTS-2025-7841\nRegistrant: Dr. Amanda Rivera\nEmail: a.rivera@university.edu\nRegistration Date: June 10, 2025\n\nEvent Details:\nDates: September 15-17, 2025\nVenue: Metropolitan Convention Center, Hall A-C\nAddress: 1200 Convention Drive, San Francisco, CA\n\nYour Registration Includes:\n✓ Access to all keynote presentations\n✓ Admission to breakout sessions and workshops\n✓ Welcome reception (September 15)\n✓ Networking lunch (September 16)\n✓ Conference materials and digital resources\n✓ Certificate of attendance\n\nImportant Information:\n• Check-in begins at 7:00 AM on September 15th\n• Parking is available for $15 per day at the convention center\n• A mobile app with the full schedule will be available for download starting September 1st\n• Dress code: Business professional\n\nCancellation Policy:\nFull refund available until August 15th\n50% refund available until September 1st\nNo refunds after September 1st\n\nFor questions, contact our support team at support@globaltechsummit.com or call 1-800-TECH-SUMMIT.",
+    "questions": [
+      {
+        "id": 18,
+        "question": "How many days does the conference last?",
+        "options": {
+          "A": "2 days",
+          "B": "3 days",
+          "C": "4 days",
+          "D": "5 days"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 19,
+        "question": "What is the daily parking fee?",
+        "options": {
+          "A": "$10",
+          "B": "$15",
+          "C": "$20",
+          "D": "Free"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 20,
+        "question": "Until when can attendees get a full refund?",
+        "options": {
+          "A": "August 1st",
+          "B": "August 15th",
+          "C": "September 1st",
+          "D": "September 15th"
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Product Warranty Information",
+    "passage": "SmartHome Pro Security System\nLimited Warranty Information\n\nThank you for purchasing the SmartHome Pro Security System. This product is covered by our comprehensive warranty program.\n\nWarranty Coverage:\n• Hardware components: 2 years from purchase date\n• Software and mobile app: 1 year from purchase date\n• Professional installation service: 6 months from installation date\n• Batteries and accessories: 90 days from purchase date\n\nWhat's Covered:\n- Manufacturing defects in materials and workmanship\n- Premature hardware failure under normal use\n- Software bugs and compatibility issues\n\nWhat's NOT Covered:\n- Damage from misuse, accidents, or natural disasters\n- Normal wear and tear\n- Damage from unauthorized modifications\n- Issues caused by third-party software or devices\n\nWarranty Claims:\nTo file a warranty claim, contact our customer service at 1-888-SMARTHOME or visit our website at www.smarthomepro.com/warranty. You will need your purchase receipt and product serial number.\n\nClaims must be filed within the warranty period. Repair or replacement will be at SmartHome Pro's discretion. If a product cannot be repaired, we will provide a comparable replacement or store credit.\n\nThis warranty is non-transferable and applies only to the original purchaser.",
+    "questions": [
+      {
+        "id": 21,
+        "question": "How long is the hardware warranty?",
+        "options": {
+          "A": "90 days",
+          "B": "6 months",
+          "C": "1 year",
+          "D": "2 years"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 22,
+        "question": "What information is needed to file a warranty claim?",
+        "options": {
+          "A": "Purchase receipt only",
+          "B": "Serial number only",
+          "C": "Both purchase receipt and serial number",
+          "D": "Installation certificate"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 23,
+        "question": "Which of the following is NOT covered by the warranty?",
+        "options": {
+          "A": "Manufacturing defects",
+          "B": "Software bugs",
+          "C": "Accidental damage",
+          "D": "Premature hardware failure"
+        },
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Library Schedule Notice",
+    "passage": "CENTRAL CITY PUBLIC LIBRARY\nSummer Hours and Special Programs\n\nEffective June 1 - August 31, 2025\n\nRegular Hours:\nMonday - Thursday: 9:00 AM - 8:00 PM\nFriday - Saturday: 9:00 AM - 6:00 PM\nSunday: 12:00 PM - 5:00 PM\n\nSpecial Summer Programs:\n\n Children's Reading Challenge (Ages 5-12)\nEvery Tuesday, 10:00 AM - 11:00 AM\nRegistration required. Limited to 15 children per session.\n\n Digital Literacy Workshop (Adults)\nEvery Thursday, 2:00 PM - 4:00 PM\nLearn basic computer skills, internet browsing, and email.\nNo registration required.\n\n Music & Stories (Toddlers 2-4)\nEvery Saturday, 10:30 AM - 11:15 AM\nInteractive sessions with songs, stories, and movement.\nParent/caregiver participation required.\n\nImportant Notices:\n• The library will be closed on July 4th for Independence Day\n• Air conditioning maintenance scheduled for July 15-16 (library remains open)\n• New book donations accepted Monday-Friday, 9:00 AM - 5:00 PM\n• Study rooms available for reservation up to 1 week in advance\n\nFor more information, call (555) 123-BOOK or visit www.centralcitylibrary.org",
+    "questions": [
+      {
+        "id": 24,
+        "question": "What are the library's Sunday hours during summer?",
+        "options": {
+          "A": "9:00 AM - 6:00 PM",
+          "B": "9:00 AM - 8:00 PM",
+          "C": "12:00 PM - 5:00 PM",
+          "D": "12:00 PM - 8:00 PM"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 25,
+        "question": "Which program requires advance registration?",
+        "options": {
+          "A": "Digital Literacy Workshop",
+          "B": "Music & Stories",
+          "C": "Children's Reading Challenge",
+          "D": "Study room reservation"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 26,
+        "question": "When will the library be closed?",
+        "options": {
+          "A": "July 4th only",
+          "B": "July 15-16 only",
+          "C": "July 4th and July 15-16",
+          "D": "Every Sunday in July"
+        },
+        "answer": "A"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Invoice",
+    "passage": "INVOICE\n\nBrightside Marketing Solutions\n456 Business Park Drive\nChicago, IL 60601\nPhone: (312) 555-0199\nEmail: billing@brightsidemarketing.com\n\nBill To:\nTech Innovations Inc.\nAttn: Accounts Payable\n789 Technology Boulevard\nAustin, TX 78701\n\nInvoice #: BSM-2025-0847\nInvoice Date: June 20, 2025\nDue Date: July 20, 2025\nTerms: Net 30\n\nDescription of Services:\n1. Social Media Management (June 2025) - $2,500.00\n2. Content Creation (10 blog posts) - $1,200.00\n3. SEO Optimization Services - $800.00\n4. Monthly Analytics Report - $300.00\n\nSubtotal: $4,800.00\nTax (8.25%): $396.00\nTotal Amount Due: $5,196.00\n\nPayment Methods:\n• Check payable to: Brightside Marketing Solutions\n• Bank Transfer: Account #4567-8901-2345\n• Online payment: www.brightsidemarketing.com/pay\n\nLate Payment Policy:\n1.5% monthly service charge on overdue balances.\n\nThank you for your business! Questions about this invoice? Contact our billing department at (312) 555-0199 ext. 102.",
+    "questions": [
+      {
+        "id": 27,
+        "question": "What is the subtotal before tax?",
+        "options": {
+          "A": "$4,800.00",
+          "B": "$5,196.00",
+          "C": "$396.00",
+          "D": "$4,404.00"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 28,
+        "question": "When is the payment due?",
+        "options": {
+          "A": "June 20, 2025",
+          "B": "July 20, 2025",
+          "C": "June 30, 2025",
+          "D": "July 30, 2025"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 29,
+        "question": "What is the most expensive service listed?",
+        "options": {
+          "A": "Content Creation",
+          "B": "SEO Optimization",
+          "C": "Social Media Management",
+          "D": "Analytics Report"
+        },
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Travel Booking Confirmation",
+    "passage": "SkyHigh Airlines - Booking Confirmation\n\nConfirmation Code: SH2025X9M7\nBooking Date: June 18, 2025\n\nPassenger Information:\nName: Mr. Robert Kim\nEmail: r.kim@email.com\nPhone: +1-555-987-6543\n\nFlight Details:\nOutbound Flight: SH4521\nDate: July 8, 2025\nDepart: New York (JFK) - 7:45 AM\nArrive: Los Angeles (LAX) - 11:15 AM (local time)\nSeat: 12A (Window, Premium Economy)\n\nReturn Flight: SH4522\nDate: July 15, 2025\nDepart: Los Angeles (LAX) - 3:30 PM\nArrive: New York (JFK) - 11:55 PM (local time)\nSeat: 15F (Window, Premium Economy)\n\nServices Included:\n✓ 2 checked bags (up to 50 lbs each)\n✓ Priority boarding\n✓ Complimentary meals and beverages\n✓ In-flight entertainment system\n✓ Extra legroom seating\n\nTotal Cost: $1,247.50 (including taxes and fees)\n\nImportant Reminders:\n• Check-in online 24 hours before departure\n• Arrive at airport 2 hours before domestic flights\n• Valid photo ID required for security screening\n• Flight changes subject to fare difference and change fees\n\nFor assistance, contact SkyHigh Airlines at 1-800-SKYHIGH or visit www.skyhighairlines.com",
+    "questions": [
+      {
+        "id": 30,
+        "question": "What type of seat did Mr. Kim book?",
+        "options": {
+          "A": "Economy",
+          "B": "Premium Economy",
+          "C": "Business Class",
+          "D": "First Class"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 31,
+        "question": "How many checked bags are included?",
+        "options": {
+          "A": "1 bag",
+          "B": "2 bags",
+          "C": "3 bags",
+          "D": "No bags included"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 32,
+        "question": "When should Mr. Kim arrive at the airport?",
+        "options": {
+          "A": "1 hour before departure",
+          "B": "2 hours before departure",
+          "C": "3 hours before departure",
+          "D": "24 hours before departure"
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Performance Review Summary",
+    "passage": "EMPLOYEE PERFORMANCE REVIEW\n\nEmployee: Jennifer Walsh\nPosition: Senior Sales Representative\nReview Period: January 1 - June 30, 2025\nReviewer: David Martinez, Sales Manager\nReview Date: July 5, 2025\n\nPerformance Summary:\nJennifer has demonstrated exceptional performance during the first half of 2025. She exceeded her sales targets by 127%, generating $2.3 million in revenue. Her client relationship management skills have resulted in a 95% customer retention rate, the highest in our department.\n\nKey Achievements:\n• Secured three major accounts worth $800,000 combined\n• Mentored two junior sales representatives\n• Completed advanced negotiation training course\n• Maintained perfect attendance record\n\nAreas for Development:\n• Time management during peak seasons\n• Delegating administrative tasks to support staff\n• Participating more actively in team meetings\n\nGoals for Next Review Period:\n1. Achieve $3 million in sales revenue\n2. Complete leadership development program\n3. Take on team lead responsibilities for Q4 projects\n\nOverall Rating: Exceeds Expectations\n\nSalary Adjustment: 8% increase effective August 1, 2025\nBonus Eligibility: Qualified for annual performance bonus\n\nEmployee Signature: _________________ Date: _________\nManager Signature: _________________ Date: _________",
+    "questions": [
+      {
+        "id": 33,
+        "question": "By what percentage did Jennifer exceed her sales targets?",
+        "options": {
+          "A": "95%",
+          "B": "127%",
+          "C": "200%",
+          "D": "300%"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 34,
+        "question": "What is Jennifer's overall performance rating?",
+        "options": {
+          "A": "Meets Expectations",
+          "B": "Exceeds Expectations",
+          "C": "Outstanding",
+          "D": "Needs Improvement"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 35,
+        "question": "When will Jennifer's salary increase take effect?",
+        "options": {
+          "A": "July 5, 2025",
+          "B": "July 31, 2025",
+          "C": "August 1, 2025",
+          "D": "September 1, 2025"
+        },
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Insurance Claim Form",
+    "passage": "AUTO INSURANCE CLAIM REPORT\n\nSafe Drive Insurance Company\nClaim Number: SD-2025-18429\nDate of Report: June 22, 2025\n\nPolicyholder Information:\nName: Lisa Chen\nPolicy Number: SD-789456123\nPhone: (555) 234-5678\nEmail: l.chen@email.com\n\nIncident Details:\nDate of Incident: June 20, 2025\nTime: Approximately 3:15 PM\nLocation: Intersection of Main Street and Oak Avenue, Springfield\nWeather Conditions: Clear and dry\n\nDescription of Incident:\nWhile stopped at a red light, the insured vehicle was rear-ended by another vehicle. The impact caused damage to the rear bumper, taillight, and trunk of the insured vehicle. No injuries were reported. Police report filed (Report #SP-2025-0891).\n\nVehicle Information:\n2023 Honda Civic, License Plate: ABC-123\nEstimated Damage: $3,200\n\nOther Party Information:\nDriver: Mark Johnson\nInsurance: Metro Insurance Group\nPolicy Number: MIG-456789012\n\nNext Steps:\n1. Vehicle inspection scheduled for June 25, 2025 at 10:00 AM\n2. Approved repair shops list attached\n3. Rental car coverage activated (up to $35/day for 14 days)\n4. Claim adjuster: Patricia Rodriguez (555) 123-4567 ext. 892\n\nDeductible: $500\nClaim Status: Under Review",
+    "questions": [
+      {
+        "id": 36,
+        "question": "What type of accident occurred?",
+        "options": {
+          "A": "Front-end collision",
+          "B": "Side impact",
+          "C": "Rear-end collision",
+          "D": "Roll-over accident"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 37,
+        "question": "What is the daily limit for rental car coverage?",
+        "options": {
+          "A": "$25",
+          "B": "$35",
+          "C": "$45",
+          "D": "$55"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 38,
+        "question": "When is the vehicle inspection scheduled?",
+        "options": {
+          "A": "June 22, 2025",
+          "B": "June 23, 2025",
+          "C": "June 24, 2025",
+          "D": "June 25, 2025"
+        },
+        "answer": "D"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Apartment Lease Agreement",
+    "passage": "RESIDENTIAL LEASE AGREEMENT\n\nLandlord: Sunshine Property Management\nTenant: Alex Rivera\nProperty Address: 1425 Maple Street, Apt 3B, Denver, CO 80202\n\nLease Terms:\nLease Start Date: August 1, 2025\nLease End Date: July 31, 2026\nMonthly Rent: $1,850\nSecurity Deposit: $1,850\nPet Deposit: $300 (if applicable)\n\nRent Payment:\nDue Date: 1st of each month\nLate Fee: $75 after 5-day grace period\nPayment Methods: Online portal, check, or money order\n\nUtilities Included:\n✓ Water and sewer\n✓ Trash collection\n✓ Basic cable TV\n\nTenant Responsibilities:\n• Electricity and gas\n• Internet service\n• Renter's insurance (minimum $100,000 coverage)\n• Parking permit ($50/month, optional)\n\nLease Conditions:\n• No smoking anywhere on the property\n• Pets allowed with prior approval and additional deposit\n• Maximum occupancy: 3 people\n• Quiet hours: 10:00 PM - 7:00 AM\n• 60-day notice required for lease termination\n\nProperty Features:\n• 2 bedrooms, 1 bathroom\n• In-unit washer/dryer\n• Balcony with city view\n• Fitness center and pool access\n• Covered parking available\n\nContact Information:\nProperty Manager: Sarah Williams\nPhone: (303) 555-0156\nEmail: swilliams@sunshinepm.com\nEmergency Maintenance: (303) 555-0199",
+    "questions": [
+      {
+        "id": 39,
+        "question": "What is the monthly rent for this apartment?",
+        "options": {
+          "A": "$1,750",
+          "B": "$1,850",
+          "C": "$1,950",
+          "D": "$2,050"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 40,
+        "question": "How much advance notice is required for lease termination?",
+        "options": {
+          "A": "30 days",
+          "B": "45 days",
+          "C": "60 days",
+          "D": "90 days"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 41,
+        "question": "Which utility is NOT included in the rent?",
+        "options": {
+          "A": "Water",
+          "B": "Cable TV",
+          "C": "Electricity",
+          "D": "Trash collection"
+        },
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Medical Appointment Confirmation",
+    "passage": "RIVERSIDE MEDICAL CENTER\nAppointment Confirmation\n\nPatient: Maria Gonzales\nAppointment Type: Annual Physical Examination\nDate: July 10, 2025\nTime: 2:30 PM\nProvider: Dr. Emily Carter, MD\nLocation: Riverside Medical Center, Suite 204\nAddress: 789 Health Drive, Springfield, IL 62701\n\nAppointment Instructions:\n• Fast for 12 hours prior to appointment (water only)\n• Arrive 15 minutes early for check-in\n• Bring list of current medications\n• Wear comfortable, loose-fitting clothing\n\nLab Work Required:\n✓ Complete Blood Count (CBC)\n✓ Comprehensive Metabolic Panel\n✓ Lipid Profile\n✓ Thyroid Function Tests\n\nImportant Notes:\n• If you need to reschedule, please call at least 24 hours in advance\n• Cancellation fee of $50 applies for same-day cancellations\n• Parking is free for patients in the main lot\n• Copay of $25 is due at time of service\n\nContact Information:\nAppointment Line: (951) 555-CARE (2273)\nAfter-hours: (951) 555-0911\nOnline: www.riversidemedical.com/patient-portal\n\nInsurance: We will verify your coverage, but please confirm your benefits with your insurance provider before your visit.",
+    "questions": [
+      {
+        "id": 42,
+        "question": "What type of appointment is scheduled?",
+        "options": {
+          "A": "Emergency consultation",
+          "B": "Follow-up visit",
+          "C": "Annual physical examination",
+          "D": "Specialist referral"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 43,
+        "question": "How long should the patient fast before the appointment?",
+        "options": {
+          "A": "8 hours",
+          "B": "10 hours",
+          "C": "12 hours",
+          "D": "24 hours"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 44,
+        "question": "What is the copay amount?",
+        "options": {
+          "A": "$15",
+          "B": "$25",
+          "C": "$35",
+          "D": "$50"
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Software License Agreement",
+    "passage": "ProDesign Software Solutions\nEND USER LICENSE AGREEMENT (EULA)\nVersion 3.2 - Effective June 1, 2025\n\nThis End User License Agreement governs your use of ProDesign Creative Suite software.\n\nLicense Grant:\nProDesign grants you a non-exclusive, non-transferable license to use the software on up to 3 devices registered to your account. This license is valid for one year from the date of purchase and includes:\n• Access to all current software modules\n• Free updates and security patches\n• Technical support via email and chat\n• Cloud storage (50GB included)\n\nRestrictions:\nYou may NOT:\n- Share your license with other users\n- Reverse engineer or modify the software\n- Use the software for illegal activities\n- Resell or redistribute the software\n- Install on more than 3 authorized devices\n\nSubscription Details:\nAnnual License: $299.99\nMonthly License: $29.99\nStudent Discount: 50% off (valid .edu email required)\nCorporate Licenses: Contact sales team\n\nTermination:\nThis license terminates automatically if you violate any terms. Upon termination, you must uninstall the software from all devices and delete any copies.\n\nSupport:\nTechnical support is available Monday-Friday, 8:00 AM - 6:00 PM PST.\nContact: support@prodesignsoftware.com or 1-888-PRODESIGN\n\nRefund Policy:\n30-day money-back guarantee for new purchases. Refunds processed within 5-7 business days.\n\nBy installing this software, you agree to these terms and conditions.",
+    "questions": [
+      {
+        "id": 45,
+        "question": "On how many devices can the software be installed?",
+        "options": {
+          "A": "1 device",
+          "B": "2 devices",
+          "C": "3 devices",
+          "D": "Unlimited devices"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 46,
+        "question": "What is the student discount percentage?",
+        "options": {
+          "A": "25%",
+          "B": "40%",
+          "C": "50%",
+          "D": "60%"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 47,
+        "question": "How long is the money-back guarantee?",
+        "options": {
+          "A": "15 days",
+          "B": "21 days",
+          "C": "30 days",
+          "D": "45 days"
+        },
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Event Planning Proposal",
+    "passage": "ELITE EVENTS PLANNING\nCorporate Event Proposal\n\nClient: TechCorp Industries\nEvent: Annual Company Retreat\nProposed Date: September 20-22, 2025\nExpected Attendance: 150 employees\n\nVenue Recommendation:\nMountain View Resort & Conference Center\n• 200-person capacity main ballroom\n• Breakout rooms for team activities\n• Audio/visual equipment included\n• Scenic mountain views\n• On-site catering available\n\nProposed Schedule:\nDay 1 (Friday):\n- 2:00 PM: Check-in and welcome reception\n- 4:00 PM: Team building activities\n- 7:00 PM: Welcome dinner and entertainment\n\nDay 2 (Saturday):\n- 8:00 AM: Continental breakfast\n- 9:00 AM: Keynote presentation\n- 11:00 AM: Departmental breakout sessions\n- 1:00 PM: Lunch and networking\n- 3:00 PM: Outdoor activities (hiking, golf)\n- 7:30 PM: Awards banquet\n\nDay 3 (Sunday):\n- 9:00 AM: Brunch and closing remarks\n- 11:00 AM: Check-out\n\nServices Included:\n✓ Complete event coordination\n✓ Venue booking and management\n✓ Catering coordination\n✓ Entertainment booking\n✓ Transportation arrangements\n✓ Photography services\n✓ Welcome gift bags\n\nInvestment Breakdown:\nVenue rental (3 days): $8,500\nCatering (all meals): $18,750\nEntertainment: $3,200\nTransportation: $2,400\nPhotography: $1,800\nMiscellaneous expenses: $2,350\n\nTotal Investment: $37,000\nPlanning fee (15%): $5,550\nGrand Total: $42,550\n\nThis proposal is valid until July 15, 2025. A 25% deposit is required to secure the date.\n\nContact: Amanda Foster, Senior Event Planner\nPhone: (555) 789-0123\nEmail: afoster@eliteevents.com",
+    "questions": [
+      {
+        "id": 48,
+        "question": "How many people are expected to attend the retreat?",
+        "options": {
+          "A": "120",
+          "B": "150",
+          "C": "180",
+          "D": "200"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 49,
+        "question": "What is the planning fee percentage?",
+        "options": {
+          "A": "10%",
+          "B": "12%",
+          "C": "15%",
+          "D": "20%"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 50,
+        "question": "When does this proposal expire?",
+        "options": {
+          "A": "July 1, 2025",
+          "B": "July 15, 2025",
+          "C": "August 1, 2025",
+          "D": "August 15, 2025"
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Bank Statement",
+    "passage": "FIRST NATIONAL BANK\nMonthly Statement\n\nAccount Holder: John Mitchell\nAccount Number: ****-****-****-7892\nStatement Period: May 1 - May 31, 2025\nStatement Date: June 5, 2025\n\nAccount Summary:\nBeginning Balance (May 1): $3,247.85\nTotal Deposits: $4,892.50\nTotal Withdrawals: $4,156.23\nService Charges: $12.00\nInterest Earned: $2.88\nEnding Balance (May 31): $3,975.00\n\nDeposit Details:\nMay 3: Direct Deposit - Salary: $2,800.00\nMay 15: Check Deposit: $892.50\nMay 28: Online Transfer: $1,200.00\n\nWithdrawal Details:\nMay 5: ATM Withdrawal: $200.00\nMay 8: Debit Purchase - Grocery Store: $156.78\nMay 12: Online Payment - Electric Bill: $89.45\nMay 18: Check #1247 - Rent Payment: $1,850.00\nMay 22: Debit Purchase - Gas Station: $45.50\nMay 25: ATM Withdrawal: $150.00\nMay 30: Online Payment - Credit Card: $1,664.50\n\nService Charges:\nATM Fee (Non-network): $4.00 x 2 = $8.00\nAccount Maintenance Fee: $4.00\n\nImportant Notes:\n• Minimum balance to avoid fees: $1,500\n• ATM withdrawals at non-network locations incur $4.00 fee\n• Statements available online at www.firstnationalbank.com\n• Contact customer service: 1-800-BANK-123\n\nNext Statement Date: July 5, 2025",
+    "questions": [
+      {
+        "id": 51,
+        "question": "What was the ending balance for May?",
+        "options": {
+          "A": "$3,247.85",
+          "B": "$3,975.00",
+          "C": "$4,892.50",
+          "D": "$4,156.23"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 52,
+        "question": "What was the largest single withdrawal?",
+        "options": {
+          "A": "$200.00",
+          "B": "$1,664.50",
+          "C": "$1,850.00",
+          "D": "$2,800.00"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 53,
+        "question": "How much interest was earned in May?",
+        "options": {
+          "A": "$2.88",
+          "B": "$4.00",
+          "C": "$8.00",
+          "D": "$12.00"
+        },
+        "answer": "A"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Training Workshop Announcement",
+    "passage": "PROFESSIONAL DEVELOPMENT INSTITUTE\nWorkshop Announcement\n\nEFFECTIVE LEADERSHIP IN THE DIGITAL AGE\nAdvanced Management Skills Workshop\n\nWorkshop Overview:\nIn today's rapidly evolving business environment, leaders must adapt their management styles to succeed with remote teams, digital communication, and changing workplace dynamics. This intensive two-day workshop will equip you with practical tools and strategies to lead effectively in the modern workplace.\n\nLearning Objectives:\n• Master virtual team management techniques\n• Develop digital communication strategies\n• Learn to motivate and engage remote employees\n• Implement effective performance management systems\n• Build resilient and adaptable teams\n\nWorkshop Details:\nDates: August 12-13, 2025 (Friday-Saturday)\nTime: 9:00 AM - 5:00 PM both days\nLocation: Downtown Conference Center, Room 301\nInstructor: Dr. Rachel Martinez, Leadership Consultant\nCapacity: Maximum 25 participants\nInvestment: $675 per person\n\nWhat's Included:\n✓ Comprehensive workshop materials\n✓ Digital resource library access (6 months)\n✓ Continental breakfast and lunch both days\n✓ Networking reception Friday evening\n✓ Certificate of completion\n✓ 12 hours of continuing education credits\n\nEarly Bird Special:\nRegister by July 15th and save $100!\nGroup rates available for 3+ participants from same organization.\n\nRegistration:\nOnline: www.pdi-training.com\nPhone: (555) 456-7890\nEmail: registration@pdi-training.com\n\nRefund Policy:\nFull refund available until 10 days before workshop start date.\n50% refund available 5-9 days before start date.\nNo refunds within 5 days of start date.\n\nCEU Credits: This workshop is approved for 12 continuing education units by the National Management Association.",
+    "questions": [
+      {
+        "id": 54,
+        "question": "Who is the workshop instructor?",
+        "options": {
+          "A": "Dr. Rachel Martinez",
+          "B": "Dr. Rachel Mitchell",
+          "C": "Dr. Rebecca Martinez",
+          "D": "Dr. Rachel Morgan"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 55,
+        "question": "How much can participants save with early bird registration?",
+        "options": {
+          "A": "$50",
+          "B": "$75",
+          "C": "$100",
+          "D": "$125"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 56,
+        "question": "How many continuing education credits are offered?",
+        "options": {
+          "A": "8 hours",
+          "B": "10 hours",
+          "C": "12 hours",
+          "D": "16 hours"
+        },
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Product Recall Notice",
+    "passage": "URGENT PRODUCT RECALL NOTICE\n\nSafeTech Electronics\nProduct Safety Department\n\nRecalled Product: PowerCharge Pro Wireless Charger\nModel Numbers: PC-WC-2024, PC-WC-2024A, PC-WC-2024B\nSold: January 2024 - May 2025\nSerial Numbers: All units with serial numbers beginning with \"ST24\"\n\nReason for Recall:\nWe have received reports of overheating issues that may pose a fire hazard. In rare cases, the charging pad may overheat during use, potentially causing damage to the device being charged or creating a fire risk.\n\nAffected Units:\nApproximately 45,000 units sold in the United States and Canada through the following retailers:\n• Electronics World\n• TechMart\n• Online marketplace platforms\n• SafeTech.com (direct sales)\n\nImmediate Action Required:\nSTOP using your PowerCharge Pro immediately and disconnect it from power.\n\nWhat We're Doing:\n1. Full refund of purchase price (with proof of purchase)\n2. Free return shipping via prepaid label\n3. Replacement with upgraded PowerCharge Pro Max (if preferred)\n4. Extended warranty on replacement products\n\nHow to Return Your Product:\n1. Visit www.safetech.com/recall or call 1-888-SAFETECH\n2. Provide your contact information and serial number\n3. Choose refund or replacement option\n4. Print prepaid shipping label\n5. Package securely and ship within 30 days\n\nRefund Information:\nRefunds will be processed within 7-10 business days after we receive your returned unit. If you don't have proof of purchase, we will provide store credit for the current retail value ($79.99).\n\nFor questions or concerns:\nRecall Hotline: 1-888-SAFETECH (1-888-723-3832)\nHours: Monday-Friday, 8:00 AM - 8:00 PM EST\nEmail: recall@safetech.com\n\nWe sincerely apologize for any inconvenience and are committed to your safety.",
+    "questions": [
+      {
+        "id": 57,
+        "question": "What is the main safety concern with this product?",
+        "options": {
+          "A": "Electrical shock",
+          "B": "Overheating and fire hazard",
+          "C": "Chemical exposure",
+          "D": "Sharp edges"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 58,
+        "question": "How many units are affected by this recall?",
+        "options": {
+          "A": "25,000",
+          "B": "35,000",
+          "C": "45,000",
+          "D": "55,000"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 59,
+        "question": "How long do customers have to return the product?",
+        "options": {
+          "A": "14 days",
+          "B": "21 days",
+          "C": "30 days",
+          "D": "60 days"
+        },
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Real Estate Listing",
+    "passage": "PREMIUM PROPERTIES REALTY\nFeatured Listing\n\nSTUNNING COLONIAL HOME IN PRESTIGIOUS NEIGHBORHOOD\n\nProperty Details:\nAddress: 1847 Oakwood Lane, Westfield Heights\nPrice: $685,000\nBedrooms: 4\nBathrooms: 3.5\nSquare Footage: 3,200\nLot Size: 0.75 acres\nYear Built: 2018\nProperty Type: Single Family Colonial\n\nInterior Features:\n• Gourmet kitchen with granite countertops\n• Hardwood floors throughout main level\n• Master suite with walk-in closet and en-suite bathroom\n• Home office/study on first floor\n• Finished basement with recreation room\n• Two-car attached garage\n• Central air conditioning and heating\n• Smart home automation system\n\nExterior Features:\n• Professional landscaping\n• Covered front porch\n• Deck overlooking private backyard\n• Sprinkler irrigation system\n• Privacy fence\n\nNeighborhood Amenities:\n• Top-rated Westfield Heights School District\n• Community park and playground within walking distance\n• Shopping center 2 miles away\n• Easy access to major highways\n• Low crime rate and family-friendly environment\n\nProperty Taxes: $8,200 annually\nHOA Fees: None\nUtilities: Separate electric, gas, water, and sewer\n\nShowing Information:\nOpen House: Saturday & Sunday, 1:00 PM - 4:00 PM\nPrivate showings available by appointment\n\nListing Agent: Michelle Thompson\nPremium Properties Realty\nPhone: (555) 321-9876\nEmail: mthompson@premiumproperties.com\nLicense #: RE2025-4789\n\nThis property won't last long! Schedule your showing today.",
+    "questions": [
+      {
+        "id": 60,
+        "question": "What is the asking price for this property?",
+        "options": {
+          "A": "$625,000",
+          "B": "$665,000",
+          "C": "$685,000",
+          "D": "$725,000"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 61,
+        "question": "How many bedrooms does the house have?",
+        "options": {
+          "A": "3",
+          "B": "4",
+          "C": "5",
+          "D": "6"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 62,
+        "question": "What are the annual property taxes?",
+        "options": {
+          "A": "$7,800",
+          "B": "$8,200",
+          "C": "$8,600",
+          "D": "$9,000"
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Company Newsletter",
+    "passage": "INNOVATE TECH SOLUTIONS\nQuarterly Newsletter - Q2 2025\n\nCEO MESSAGE\nDear Team,\n\nI'm pleased to report that Q2 has been our strongest quarter yet, with revenue growth of 23% compared to the same period last year. Our new cloud-based solutions have gained significant market traction, and client satisfaction scores have reached an all-time high of 94%.\n\nCOMPANY HIGHLIGHTS\n\n MILESTONE ACHIEVEMENT\nWe've successfully onboarded our 1,000th client! This milestone represents five years of dedicated service and innovation. To celebrate, all employees will receive a $500 bonus in their July paycheck.\n\n AWARDS & RECOGNITION\nInnovate Tech Solutions was named \"Best Cloud Service Provider\" by Tech Industry Magazine. The award recognizes our commitment to excellence and customer service.\n\n TEAM EXPANSION\nWe've welcomed 15 new team members across various departments:\n• Software Development: 8 engineers\n• Customer Success: 4 specialists\n• Sales: 2 representatives\n• Human Resources: 1 coordinator\n\n PROFESSIONAL DEVELOPMENT\nNew learning opportunities:\n• Advanced Cybersecurity Certification (starts August)\n• Leadership Training Program (applications due July 31st)\n• Technical Skills Workshops (monthly sessions)\n\n UPCOMING EVENTS\n• Annual Summer Picnic: July 28th at Riverside Park\n• Q3 All-Hands Meeting: August 15th\n• Innovation Challenge Presentation: September 10th\n\nEMPLOYEE SPOTLIGHT\nCongratulations to Sarah Kim (Senior Developer) for leading the successful launch of our new mobile application. Her dedication and technical expertise made this project a tremendous success.\n\nLooking ahead to Q3, we're excited about our upcoming product launches and continued growth. Thank you for your hard work and commitment.\n\nBest regards,\nJames Wilson, CEO\n\nHR CORNER\nReminder: Annual performance reviews will be conducted in August. Please complete your self-assessments by July 25th.\n\nNew Benefits: Starting in September, we're adding mental health counseling services to our employee benefits package.",
+    "questions": [
+      {
+        "id": 63,
+        "question": "What was the revenue growth percentage for Q2?",
+        "options": {
+          "A": "20%",
+          "B": "23%",
+          "C": "25%",
+          "D": "27%"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 64,
+        "question": "How much bonus will employees receive?",
+        "options": {
+          "A": "$300",
+          "B": "$400",
+          "C": "$500",
+          "D": "$600"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 65,
+        "question": "When is the deadline for leadership training applications?",
+        "options": {
+          "A": "July 25th",
+          "B": "July 28th",
+          "C": "July 31st",
+          "D": "August 15th"
+        },
+        "answer": "C"
+      }
+    ]
+  }
+]
