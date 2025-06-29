@@ -43,6 +43,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'webtienganh.urls'
 
+ALLOWED_HOSTS = ['webtienganh.onrender.com', 'localhost', '127.0.0.1']
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -85,7 +87,7 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-CORS_ALLOW_ALL_ORIGINS = True  # hoặc cấu hình cụ thể hơn nếu cần
+
 # Quốc tế hóa
 LANGUAGE_CODE = 'en-us'
 TIME_ZONE = 'UTC'
