@@ -119,9 +119,5 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'front_end/build/static'),
 ]
 
-TEMPLATES[0]['DIRS'] = [
-    os.path.join(BASE_DIR, 'front_end/build'),
-]
-
 # Nếu đang dùng Whitenoise
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
