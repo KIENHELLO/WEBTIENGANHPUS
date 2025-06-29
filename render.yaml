@@ -13,3 +13,4 @@ services:
         value: webtienganh.settings
       - key: PYTHON_VERSION
         value: 3.10
+        
