@@ -14,7 +14,7 @@ urlpatterns = [
     path('api/writing/', include('writing.urls')),
     path('api/testcenters/', include('testcenter.urls')),
     path('api/auth/', include('users.urls')),
-
+     path('', TemplateView.as_view(template_name='index.html')),
     # Route tất cả các đường dẫn khác về React
     re_path(r'^.*$', TemplateView.as_view(template_name='index.html')),
 ]
