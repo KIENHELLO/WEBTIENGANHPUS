@@ -1,11 +1,8 @@
-#from django.contrib import admin
-##urlpatterns = [
-   ### path('api/reading/', include('reading.urls')),
-    ####]
+# webtienganh/urls.py
 
 from django.contrib import admin
 from django.urls import path, include, re_path
-from django.views.generic import TemplateView
+from .views import FrontendAppView  # ← dòng này quan trọng
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -14,7 +11,7 @@ urlpatterns = [
     path('api/writing/', include('writing.urls')),
     path('api/testcenters/', include('testcenter.urls')),
     path('api/auth/', include('users.urls')),
-     path('', TemplateView.as_view(template_name='index.html')),
-    # Route tất cả các đường dẫn khác về React
-    re_path(r'^.*$', TemplateView.as_view(template_name='index.html')),
+
+    # Trả về index.html cho các route frontend
+    re_path(r'^.*$', FrontendAppView.as_view()),  # ← dòng này sẽ xử lý mọi route còn lại
 ]
