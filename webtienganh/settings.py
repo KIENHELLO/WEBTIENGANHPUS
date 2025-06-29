@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -109,3 +110,18 @@ REST_FRAMEWORK = {
 
 # CORS (cho phép React truy cập API)
 CORS_ALLOW_ALL_ORIGINS = True
+
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+# Dòng thêm để Django biết dùng static từ React
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'front_end/build/static'),
+]
+
+TEMPLATES[0]['DIRS'] = [
+    os.path.join(BASE_DIR, 'front_end/build'),
+]
+
+# Nếu đang dùng Whitenoise
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
