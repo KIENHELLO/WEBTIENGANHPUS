@@ -17,5 +17,4 @@ urlpatterns = [
      path('', TemplateView.as_view(template_name='index.html')),
     # Route tất cả các đường dẫn khác về React
     re_path(r'^.*$', TemplateView.as_view(template_name='index.html')),
-    path('', TemplateView.as_view(template_name='index.html')),
 ]
