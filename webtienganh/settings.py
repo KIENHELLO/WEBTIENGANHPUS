@@ -62,6 +62,7 @@ TEMPLATES = [
 ALLOWED_HOSTS = ['webtienganh.onrender.com', 'localhost', '127.0.0.1']
 
 
+
 WSGI_APPLICATION = 'webtienganh.wsgi.application'
 
 # Database
