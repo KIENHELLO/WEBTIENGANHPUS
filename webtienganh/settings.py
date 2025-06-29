@@ -49,7 +49,7 @@ ALLOWED_HOSTS = ['webtienganh.onrender.com', 'localhost', '127.0.0.1']
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'front_end/build')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -60,6 +60,8 @@ TEMPLATES = [
         },
     },
 ]
+
+
 ALLOWED_HOSTS = ['webtienganh.onrender.com', 'localhost', '127.0.0.1']
 
 
@@ -97,7 +99,7 @@ USE_I18N = True
 USE_TZ = True
 
 # File tĩnh
-STATIC_URL = 'static/'
+#STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
@@ -117,10 +119,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Dòng thêm để Django biết dùng static từ React
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'front_end/build/static'),
-]
-
-TEMPLATES[0]['DIRS'] = [
-    os.path.join(BASE_DIR, 'front_end/build'),
 ]
 
 # Nếu đang dùng Whitenoise
