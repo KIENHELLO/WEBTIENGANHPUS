@@ -2,11 +2,12 @@ services:
   - type: web
     name: webtienganh-backend
     env: python
-    buildCommand: ""
+    buildCommand: |
+      pip install -r requirements.txt
+      cd front_end && npm install && npm run build
     startCommand: gunicorn webtienganh.wsgi:application --bind 0.0.0.0:$PORT
     envVars:
       - key: DJANGO_SETTINGS_MODULE
         value: webtienganh.settings
       - key: PYTHON_VERSION
         value: 3.10
-
