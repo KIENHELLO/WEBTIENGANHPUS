@@ -1,0 +1,121 @@
+:root {
+    --writing-primary: #7209b7;
+    --writing-secondary: #480ca8;
+    --writing-accent: #b5179e;
+    --writing-light: #f8f9fa;
+    --writing-dark: #3a0ca3;
+    --writing-card-bg: #ffffff;
+    --writing-text: #2b2d42;
+    --writing-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --writing-hover-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.writing-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    color: var(--writing-text);
+}
+
+/* Hero Section */
+.writing-hero {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2.5rem;
+    border-radius: 12px;
+    background: linear-gradient(135deg, var(--writing-primary), var(--writing-secondary));
+    color: white;
+    box-shadow: var(--writing-shadow);
+}
+
+.writing-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.writing-hero p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    color: white;
+}
+
+/* Section Styles */
+.writing-section {
+    margin-bottom: 3rem;
+}
+
+.writing-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--writing-accent);
+    color: var(--writing-dark);
+}
+
+/* Grid Layout: chiều ngang */
+.writing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+/* Card Styles */
+.writing-card {
+    background: var(--writing-card-bg);
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: var(--writing-shadow);
+    transition: all 0.3s ease;
+    border-top: 4px solid var(--writing-accent);
+}
+
+.writing-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--writing-hover-shadow);
+}
+
+.writing-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: var(--writing-dark);
+}
+
+.writing-card p {
+    margin-bottom: 1.5rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Button Styles */
+.writing-card button {
+    width: 100%;
+    padding: 0.8rem;
+    background: var(--writing-primary);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.writing-card button:hover {
+    background: var(--writing-secondary);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .writing-container {
+        padding: 1rem;
+    }
+
+    .writing-hero h1 {
+        font-size: 2rem;
+    }
+
+    .writing-grid {
+        grid-template-columns: 1fr;
+    }
+}

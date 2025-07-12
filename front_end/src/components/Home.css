@@ -1,0 +1,241 @@
+/* Base Styles */
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Header */
+.home-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.home-header h1 {
+  color: #4a6baf;
+  font-size: 2.8rem;
+  margin-bottom: 0;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  font-weight: 700;
+}
+
+/* Featured Vocabulary Section */
+.featured-vocabulary {
+  margin-bottom: 40px;
+}
+
+.vocab-highlight {
+  background: linear-gradient(135deg, #4a6baf 0%, #6a8ccf 100%);
+  color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(74, 107, 175, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.vocab-highlight h2 {
+  font-size: 2.2rem;
+  margin-top: 0;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  font-weight: 700;
+}
+
+.vocab-quote {
+  font-style: italic;
+  font-size: 1.4rem;
+  margin-bottom: 25px;
+  position: relative;
+  z-index: 1;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  color: #f8f8f8;
+  font-weight: 500;
+}
+
+.vocab-description {
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 20px;
+  border-radius: 8px;
+  backdrop-filter: blur(5px);
+  position: relative;
+  z-index: 1;
+}
+
+.vocab-description p {
+  margin: 10px 0;
+  line-height: 1.6;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+/* Main Skills Section */
+.main-skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.skill-card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.skill-card h3 {
+  color: #333;
+  font-size: 1.3rem;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.skill-card p {
+  color: #666;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.explore-button {
+  background-color: transparent;
+  color: #4a6baf;
+  border: 1px solid #4a6baf;
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 10px;
+}
+
+.explore-button:hover {
+  background-color: #4a6baf;
+  color: white;
+}
+
+/* Featured Lessons Section */
+.featured-lessons {
+  margin-bottom: 60px;
+}
+
+.featured-lessons h2 {
+  text-align: center;
+  color: #4a6baf;
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.featured-lessons h2::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 3px;
+  background-color: #4a6baf;
+  margin: 15px auto 0;
+}
+
+.lessons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.lesson-card {
+  background-color: rgb(244, 243, 243);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.lesson-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.lesson-card h3 {
+  color: #fff;
+  margin-top: 0;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 8px 15px;
+  display: inline-block;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.lesson-card.vocabulary h3 {
+  background-color: #4a6baf;
+}
+
+.lesson-card.reading h3 {
+  background-color: #791b9c;
+}
+
+.lesson-card.testcenter h3 {
+  background-color: #0ca04a;
+}
+
+.lesson-card.writing h3 {
+  background-color: #f39c12;
+}
+
+.lesson-card p:first-of-type {
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.lesson-card p {
+  color: #000000;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.lesson-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.lesson-footer span {
+  color: #4a6baf;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.start-button {
+  background-color: #4a6baf;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.start-button:hover {
+  background-color: #3a5a9f;
+}

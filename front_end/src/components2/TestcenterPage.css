@@ -1,0 +1,57 @@
+/* Trong file TestcenterPage.css */
+.back-button {
+    position: fixed;
+    /* Thay absolute bằng fixed */
+    top: 20px;
+    left: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    /* Nền trong suốt */
+    border: 1px solid #4361ee;
+    color: #4361ee;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 8px 16px;
+    border-radius: 20px;
+    /* Bo tròn hơn */
+    transition: all 0.3s ease;
+    z-index: 1000;
+    /* Đảm bảo hiển thị trên cùng */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Đổ bóng nhẹ */
+}
+
+.back-button:hover {
+    background: #4361ee;
+    color: white;
+    transform: translateX(-3px);
+}
+
+/* Thêm padding cho trang để tránh bị che */
+.testcenter-page {
+    padding-top: 60px;
+    /* Tạo khoảng trống cho nút */
+    position: relative;
+}
+
+.content-container {
+    margin-top: 50px;
+    /* Đảm bảo không bị che */
+    padding: 20px;
+}
+
+/* Responsive cho mobile */
+@media (max-width: 768px) {
+    .back-button {
+        top: 10px;
+        left: 10px;
+        padding: 6px 12px;
+        font-size: 0.9rem;
+    }
+
+    .content-container {
+        margin-top: 40px;
+    }
+}

@@ -1,0 +1,161 @@
+/* Reset và Base Styles */
+:root {
+    --reading-primary: #2a9d8f;
+    --reading-secondary: #264653;
+    --reading-accent: #e9c46a;
+    --reading-light: #f1faee;
+    --reading-dark: #1d3557;
+    --reading-card-bg: #ffffff;
+    --reading-text: #2b2d42;
+    --reading-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --reading-hover-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.reading-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    color: var(--reading-text);
+}
+
+/* Hero Section */
+.reading-hero {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2.5rem;
+    border-radius: 12px;
+    background: linear-gradient(135deg, var(--reading-primary), var(--reading-secondary));
+    color: white;
+    box-shadow: var(--reading-shadow);
+}
+
+.reading-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.reading-hero p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    max-width: 800px;
+    margin: 0 auto;
+    color: white;
+}
+
+/* Section Styles */
+.reading-section {
+    margin-bottom: 3rem;
+}
+
+.reading-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--reading-accent);
+    color: var(--reading-dark);
+}
+
+/* Grid Layout */
+.reading-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+/* Card Styles */
+.reading-card {
+    background: var(--reading-card-bg);
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: var(--reading-shadow);
+    transition: all 0.3s ease;
+    border-top: 4px solid var(--reading-accent);
+}
+
+.reading-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--reading-hover-shadow);
+}
+
+.reading-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--reading-dark);
+}
+
+.reading-card p {
+    margin-bottom: 1.5rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Button Styles */
+.reading-card button {
+    width: 100%;
+    padding: 0.8rem;
+    background: var(--reading-primary);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.reading-card button:hover {
+    background: var(--reading-secondary);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .reading-container {
+        padding: 1rem;
+    }
+
+    .reading-hero {
+        padding: 1.5rem;
+    }
+
+    .reading-hero h1 {
+        font-size: 2rem;
+    }
+
+    .reading-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Animation Effects */
+@keyframes readingFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.reading-card {
+    animation: readingFadeIn 0.5s ease forwards;
+}
+
+.reading-card:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.reading-card:nth-child(3) {
+    animation-delay: 0.2s;
+}
+
+/* Icon Styles */
+.reading-card h3::before {
+    font-size: 1.5em;
+    margin-right: 0.5rem;
+}

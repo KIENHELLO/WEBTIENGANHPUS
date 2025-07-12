@@ -1,0 +1,172 @@
+/* ----------------------- CHUNG -------------------------- */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* Áp dụng NỀN TÍM CHỈ CHO TRANG LOGIN */
+body.login-page {
+  background: linear-gradient(135deg, #3d0066, #660066);
+}
+
+
+/* ----------------------- LOGIN -------------------------- */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  padding: 100px 20px 60px;
+  /* cách top, left-right, bottom */
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+
+.login-card {
+  background: #f8f0ff;
+  border-radius: 20px;
+  padding: 40px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.avatar {
+  position: absolute;
+  top: -30px;
+  left: calc(50% - 30px);
+  background: #d0bfff;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.tabs span {
+  font-weight: 600;
+  color: #999;
+  cursor: pointer;
+}
+
+.tabs .active-tab {
+  color: #5f3dc4;
+  border-bottom: 2px solid #5f3dc4;
+  padding-bottom: 5px;
+}
+
+h2 {
+  margin: 10px 0;
+  font-size: 22px;
+}
+
+p {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.login-form .input-group {
+  display: flex;
+  align-items: center;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.login-form .input-group .icon {
+  margin-right: 10px;
+  color: #999;
+}
+
+.login-form input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 14px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.options a {
+  text-decoration: none;
+  color: #7b2cbf;
+}
+
+.login-button {
+  background: #7b2cbf;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  width: 100%;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background: #5f3dc4;
+}
+
+/* ----------------------- TESTCENTER -------------------------- */
+
+.tools-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.tool-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 25px 20px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.tool-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.tool-card p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.tool-card button {
+  background-color: #ff4b4b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.tool-card button:hover {
+  background-color: #d73838;
+}

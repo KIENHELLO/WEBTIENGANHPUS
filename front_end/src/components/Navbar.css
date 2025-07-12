@@ -1,0 +1,52 @@
+.navbar {
+    background-color: #8455ad;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    white-space: nowrap;
+    color: rgb(75, 32, 216);
+}
+
+.navbar-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.navbar-links li {
+    white-space: nowrap;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: rgb(75, 32, 216);
+    font-weight: 500;
+    transition: opacity 0.2s;
+    white-space: nowrap;
+}
+
+.navbar-links a:hover {
+    opacity: 0.8;
+}
+
+.navbar-account a {
+    color: rgb(166, 34, 206);
+    text-decoration: none;
+    font-weight: 500;
+    white-space: nowrap;
+}
