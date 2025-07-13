@@ -13,5 +13,6 @@ urlpatterns = [
     path('api/auth/', include('users.urls')),
     path('', lambda request: JsonResponse({'status': 'ok'})),
     # Trả về index.html cho các route frontend
+    path('', TemplateView.as_view(template_name='index.html')),
     re_path(r'^.*$', FrontendAppView.as_view()),  # ← dòng này sẽ xử lý mọi route còn lại
 ]
