@@ -1,6 +1,10 @@
-import os
+
 from pathlib import Path
 
+import os
+
+SECRET_KEY = os.environ.get('SECRET_KEY', 'dev-secret-key')
+DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'django-insecure-t10t9hq1_if8njx-+%ydbe!2t7gyxjevsw9xjdjk!x%=tv5njl'
@@ -45,7 +49,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'webtienganh.urls'
 
-ALLOWED_HOSTS = ['webtienganh.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['webtienganhpus.onrender.com']
+
 
 TEMPLATES = [
     {
@@ -61,8 +66,6 @@ TEMPLATES = [
         },
     },
 ]
-ALLOWED_HOSTS = ['webtienganh.onrender.com', 'localhost', '127.0.0.1']
-
 
 
 WSGI_APPLICATION = 'webtienganh.wsgi.application'
@@ -116,9 +119,9 @@ CORS_ALLOW_ALL_ORIGINS = True
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Dòng thêm để Django biết dùng static từ React
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'front_end/build/static'),
-]
+#STATICFILES_DIRS = [
+ #   os.path.join(BASE_DIR, 'front_end/build/static'),
+#]
 
 # Nếu đang dùng Whitenoise
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
