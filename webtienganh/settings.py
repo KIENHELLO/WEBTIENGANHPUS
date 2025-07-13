@@ -67,6 +67,9 @@ TEMPLATES = [
     },
 ]
 
+TEMPLATES[0]['DIRS'] = [os.path.join(BASE_DIR, 'front_end', 'build')]
+
+
 
 WSGI_APPLICATION = 'webtienganh.wsgi.application'
 
