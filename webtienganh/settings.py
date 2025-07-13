@@ -67,8 +67,12 @@ TEMPLATES = [
     },
 ]
 
-TEMPLATES[0]['DIRS'] = [os.path.join(BASE_DIR, 'front_end', 'build')]
-
+TEMPLATES[0]['DIRS'] = [
+    os.path.join(BASE_DIR, 'front_end', 'build')  # ← nơi chứa index.html
+]
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'front_end', 'build', 'static')
+]
 
 
 WSGI_APPLICATION = 'webtienganh.wsgi.application'
